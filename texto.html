@@ -8,11 +8,20 @@
     <script>
 
 // palavra
-let palavra = "aprendendo"
+let palavra = "douglas"
 
 // maiusculas e minusculas
 document.write(palavra.toUpperCase()+"<br>")
 document.write(palavra.toLowerCase()+"<br>")
+
+// qunatidade de caracteres
+document.write(palavra+" possui"+palavra.length+"caracteres<br>")
+
+// manipulando caracteres 
+for(let indice = 0; indice < palavra.length; indice++){
+    document.write(indice+" - "+palavra.charAt(indice)+"<br>")
+}
+ 
 
 
     </script>
