@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>do-while</title>
+
+<script>
+// variavel nome
+let nome
+ // variavel para continuar o loop
+ let loop = true
+
+ // laço
+ do{
+     nome = prompt("informe seu nome")
+
+     if(nome != ""){
+         loop = false
+     }else{
+         alert("o nome e obrigatorio, favor informar")
+     }
+ }while(loop == true)
+
+ // messagem
+ document.write("dom dia "+nome)
+
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>
